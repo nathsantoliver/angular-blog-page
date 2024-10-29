@@ -22,3 +22,16 @@ body {
   width: 100%;
   position: absolute;
 }
+
+.home__container {
+  border: 1px solid blue;
+  min-height: auto  ;
+
+  padding: 50px 30px;
+}
+  
+.home__container > h1 {
+  font-size: 60px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
