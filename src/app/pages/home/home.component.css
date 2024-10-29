@@ -1,0 +1,24 @@
+
+body {
+  background: #FFFFFF;
+  height: 100vh;
+  margin: 0 auto;
+  position: relative;
+  /* background-color: aqua; */
+  /* width: 80vw; */
+  /* min-height: 1600px; */
+  /* background: linear-gradient(
+    rgba(2, 0, 36, 1) 0%,
+    rgba(2, 0, 36, 1) 48%,
+    rgba(0, 212, 255, 1) 48%,
+    rgba(0, 212, 255, 1) 100%
+  ) no-repeat; */
+}
+
+.bg__container {
+  z-index: -1;
+  background-color: rgb(187, 187, 186);
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+}

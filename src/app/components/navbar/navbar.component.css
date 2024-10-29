@@ -1,0 +1,46 @@
+.container__navbar {
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 25px 30px;
+
+  border: 1px solid red;
+}
+
+.navbar__logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 40px;
+  text-transform: uppercase;
+}
+
+.navbar__logo > a {
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+
+  color: #0c0c0b;
+  font-size: 26px;
+  font-weight: 500;
+  
+}
+
+.navbar__logo > a > img {
+  width: 30px;
+  height: 30px;
+}
+
+.navbar__logo > h1 {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.navbar__menu {
+  color: #0c0c0b;
+  cursor: pointer;
+}
