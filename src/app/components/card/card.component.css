@@ -1,0 +1,8 @@
+.card__container {
+  width: 400px;
+  height: 75vh;
+  margin-bottom: 30px;
+
+  border: 1px solid blue;
+  /* background-color: violet; */
+}

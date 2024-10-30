@@ -45,7 +45,7 @@ body {
   align-items: flex-end;
 }
 
-.main__name > p {
+.main__name > h2 {
   font-size: 90px;
   font-weight: 400;
   text-transform: uppercase;
@@ -61,8 +61,40 @@ body {
 }
 
 .home__others {
-  height: 200px;
+  /* min-height: fit-content; */
+  min-height: 600px;
+  /* margin-bottom: 30px; */
 
-  /* border: 1px solid green; */
   background-color: green;
+}
+
+.section__name {
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.section__name > h2 {
+  font-size: 40px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 40px;
+}
+
+.section__name > h2:last-child {
+  color: rgb(145, 145, 145);
+}
+
+.section__cards {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* gap: 22px; */
+
+  border: 1px solid red;
 }
