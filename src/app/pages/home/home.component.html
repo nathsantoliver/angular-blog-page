@@ -1,6 +1,6 @@
-<div class="bg__container"></div> 
+<div class="bg__container"></div>
 
-<app-navbar></app-navbar>
+<app-navbar iconLogo="/icons/sun-solid.svg" nameLogo="sunny"></app-navbar>
 
 <div class="home__container">
   <div class="home__main">
@@ -8,7 +8,11 @@
       <h2>Newsroom</h2>
     </div>
     <div class="main__article">
-      <app-main-article></app-main-article>
+      <app-main-article
+        articleImg="img/photo_1.jpg"
+        articleDate="24.10.25"
+        articleTitle="Feynman Technique: what it is and how to use it to improve learning"
+      ></app-main-article>
     </div>
   </div>
   <div class="home__others">
@@ -17,13 +21,36 @@
       <h2>News</h2>
     </div>
     <div class="section__cards">
-      <app-card></app-card>
-      <app-card></app-card>
-      <app-card></app-card>
-      <app-card></app-card>
-      <app-card></app-card>
-      <app-card></app-card>
+      <app-card
+        cardImg="/img/photo_6.png"
+        cardDate="2024.10.21"
+        cardTitle="Things that I cary on everyday"
+      ></app-card>
+      <app-card
+      cardImg="/img/photo_3.jpg"
+      cardDate="2024.10.18"
+      cardTitle="Everything you need to know before getting a Shi-Tzu"
+      ></app-card>
+      <app-card
+        cardImg="/img/photo_4.jpg"
+        cardDate="2024.10.15"
+        cardTitle="How I organize my study and work routine to be more productive"
+      ></app-card>
+      <app-card
+        cardImg="/img/photo_5.jpg"
+        cardDate="2024.10.12"
+        cardTitle="Why keeping a diary helps you build and maintain good habits"
+      ></app-card>
+      <app-card
+        cardImg="/img/photo_2.jpg"
+        cardDate="2024.10.09"
+        cardTitle="Books that changed my mindset for life"
+      ></app-card>
+      <app-card
+        cardImg="/img/photo_1.jpg"
+        cardDate="2024.10.06"
+        cardTitle="Best techniques for being a self-taught person"
+      ></app-card>
     </div>
   </div>
-
 </div>
