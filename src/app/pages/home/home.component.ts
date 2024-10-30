@@ -8,7 +8,7 @@ import { CardComponent } from "../../components/card/card.component";
   standalone: true,
   imports: [NavbarComponent, MainArticleComponent, CardComponent],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  styleUrls: ['./home.component.css', 'home.responsive.component.css']
 })
 export class HomeComponent {
 

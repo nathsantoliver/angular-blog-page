@@ -63,8 +63,8 @@
 }
 
 .article__info > h3 {
-  /* font-size: 1.8em; */
-  font-size: 45px;
+  font-size: 3em;
+  /* font-size: 45px; */
   line-height: 1.1;
   letter-spacing: .2px;
   font-weight: 600;

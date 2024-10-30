@@ -4,15 +4,6 @@ body {
   height: 100vh;
   margin: 0 auto;
   position: relative;
-  /* background-color: aqua; */
-  /* width: 80vw; */
-  /* min-height: 1600px; */
-  /* background: linear-gradient(
-    rgba(2, 0, 36, 1) 0%,
-    rgba(2, 0, 36, 1) 48%,
-    rgba(0, 212, 255, 1) 48%,
-    rgba(0, 212, 255, 1) 100%
-  ) no-repeat; */
 }
 
 .bg__container {
@@ -30,7 +21,6 @@ body {
 
 .home__main {
   height: calc(100vh - 60px);
-  /* padding: 40px 0; */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -51,8 +41,6 @@ body {
   text-transform: uppercase;
   word-break: break-word;
   line-height: 90px;
-  /* padding-right: 10px */
-  /* margin-right: 10px; */
 }
 
 .main__article {

@@ -1,0 +1,9 @@
+@media screen and (max-width: 600px) {
+  .home__main {
+    margin-top: 40px;
+  }
+  .main__name {
+    max-width: 280px;
+    /* padding-right: 230px; */
+  }
+}

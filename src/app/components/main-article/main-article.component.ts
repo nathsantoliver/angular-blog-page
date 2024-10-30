@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './main-article.component.html',
-  styleUrl: './main-article.component.css'
+  styleUrls: ['./main-article.component.css', './main-article.responsive.component.css']
 })
 export class MainArticleComponent {
 
