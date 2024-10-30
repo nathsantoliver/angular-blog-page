@@ -3,6 +3,25 @@
   height: 75vh;
   margin-bottom: 30px;
 
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+
   border: 1px solid blue;
-  /* background-color: violet; */
+}
+
+.card__img {
+  overflow: hidden;
+  /* background-color: yellow;   */
+  /* border: 1px solid blue; */
+}
+
+.card__img > img {
+  width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+.card__infos {
+  background-color: violet;
+  /* border: 1px solid pink; */
 }
