@@ -59,11 +59,10 @@
 
 .article__info > p {
   font-weight: 600;
-
 }
 
 .article__info > h3 {
-  font-size: 3em;
+  font-size: 2.8em;
   /* font-size: 45px; */
   line-height: 1.1;
   letter-spacing: .2px;

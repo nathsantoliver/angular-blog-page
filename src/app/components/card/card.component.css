@@ -5,14 +5,10 @@
 
   display: grid;
   grid-template-rows: 1fr 1fr;
-
-  border: 1px solid blue;
 }
 
 .card__img {
   overflow: hidden;
-  /* background-color: yellow;   */
-  /* border: 1px solid blue; */
 }
 
 .card__img > img {
@@ -22,6 +18,43 @@
 }
 
 .card__infos {
-  background-color: violet;
-  /* border: 1px solid pink; */
+  padding: 18px 0;
+  padding-right: 95px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.card__infos > p {
+  color: rgb(145, 145, 145);
+  font-weight: 600;
+}
+
+.card__infos > h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.card__infos > a {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  transition: all .2s;
+}
+
+.card__infos > a:hover {
+  text-decoration: underline;
+}
+
+.card__infos > a > p {
+  font-size: .9em;
+  text-transform: uppercase;
+  font-weight: 600;
+  word-spacing: 5px;
 }

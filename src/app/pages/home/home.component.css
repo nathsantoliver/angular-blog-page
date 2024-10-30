@@ -49,11 +49,7 @@ body {
 }
 
 .home__others {
-  /* min-height: fit-content; */
   min-height: 600px;
-  /* margin-bottom: 30px; */
-
-  background-color: green;
 }
 
 .section__name {
@@ -82,7 +78,4 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  /* gap: 22px; */
-
-  border: 1px solid red;
 }
