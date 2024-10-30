@@ -1,9 +1,31 @@
+@media screen and (max-width: 850px) {
+  .section__cards {  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .home__main {
     margin-top: 40px;
   }
+
   .main__name {
     max-width: 280px;
-    /* padding-right: 230px; */
+  }
+
+  .section__name {
+    height: 20vh;
+  }
+
+  .section__cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .section__name {
+    height: 15vh;
   }
 }

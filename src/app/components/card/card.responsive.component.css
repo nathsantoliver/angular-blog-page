@@ -1,0 +1,11 @@
+@media screen and (max-width: 850px) {
+  .card__container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .card__container {
+    margin-bottom: 10px;
+  }
+}
