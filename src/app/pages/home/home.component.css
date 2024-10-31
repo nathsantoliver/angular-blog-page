@@ -6,16 +6,8 @@ body {
   position: relative;
 }
 
-.bg__container {
-  z-index: -1;
-  background-color: rgb(187, 187, 186);
-  height: 100vh;
-  width: 100%;
-  position: absolute;
-}
-
 .home__container {
-  min-height: auto  ;
+  min-height: auto;
   padding: 0 30px;
 }
 

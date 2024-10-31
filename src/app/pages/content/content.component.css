@@ -1,0 +1,18 @@
+.content__container {
+  width: 100%;
+  min-height: auto;
+  padding: 30px 30px;
+
+  /* border: 1px solid red; */
+}
+
+.content__header {
+  margin-bottom: 25px;
+}
+
+.content__article {
+  width: 100%;
+  /* border: 1px solid green; */
+}
+
+/* height: calc(100vh - 60px); */
