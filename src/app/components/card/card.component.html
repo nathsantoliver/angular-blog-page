@@ -1,11 +1,11 @@
 <div class="card__container">
   <div class="card__img">
-    <img src="{{ cardImg }}">
+    <img src="{{ articleImg }}">
   </div>
   <div class="card__infos">
-    <p>{{ cardDate }}</p>
-    <h3>{{ cardTitle }}</h3>
-    <a href="#">
+    <p>{{ articleDate }}</p>
+    <h3>{{ articleTitle }}</h3>
+    <a [routerLink]="['content', id]">
       <p>read more</p>
       <i class="fa-solid fa-plus"></i>
     </a>

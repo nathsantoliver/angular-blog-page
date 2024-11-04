@@ -15,4 +15,6 @@ export class MainArticleComponent {
   articleDate:string = ""
   @Input()
   articleTitle:string = ""
+  @Input()
+  id:string = "0"
 }

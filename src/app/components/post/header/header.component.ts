@@ -16,4 +16,6 @@ export class HeaderComponent {
   articleDate:string = ""
   @Input()
   articleImg:string = ""
+  @Input()
+  id:string = "0"
 }
